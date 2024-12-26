@@ -6,11 +6,7 @@ on:
 jobs:
   publish-docs:
     runs-on: ubuntu-24.04
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@v4
-        with:
-          persist-credentials: false
       - uses: astral-sh/setup-uv@v5
       - run: uvx mkdocs gh-deploy --force
