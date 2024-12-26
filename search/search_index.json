@@ -1,0 +1,1 @@
+{"config":{"indexing":"full","lang":["en"],"min_search_length":3,"prebuild_index":false,"separator":"[\\s\\-]+"},"docs":[{"location":"","text":"test-mkdocs foo","title":"test-mkdocs"},{"location":"#test-mkdocs","text":"foo","title":"test-mkdocs"}]}
